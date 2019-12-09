@@ -1,0 +1,5 @@
+SELECT p.PurchID,pr.ProductType, pr.ProductName
+  FROM Purchase p
+  INNER JOIN Product pr
+  ON p.ProductID = pr.ProductID;
+
